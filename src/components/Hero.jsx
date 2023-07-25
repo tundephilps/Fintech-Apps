@@ -13,9 +13,8 @@ const Hero = () => {
           in one single place.
         </h1>
         <p className="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24">
-          Hellonext is a feature voting software where you can allow your users
-          to vote on features, publish roadmap, and complete your customer
-          feedback loop.
+          Optimus is a Financial Application Service that takes care of all
+          business needs including SMEs and large scale companies
         </p>
         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
           <Link to="/Projects">
