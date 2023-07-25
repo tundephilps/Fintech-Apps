@@ -69,8 +69,8 @@ const Container = () => {
   };
 
   return (
-    <div className=" bg-[#1b1b1b] h-[120vh]">
-      <div className="grid grid-cols-3 gap-4">
+    <div className=" bg-[#1b1b1b] h-full">
+      <div className="grid lg:grid-cols-3 sm:grid-col-1 gap-4">
         {data.map((value, index) => {
           return (
             <div

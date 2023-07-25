@@ -8,54 +8,54 @@ export const Header = () => {
   return (
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        <a
-          href="/"
+        <Link
+          to="/"
           aria-label="Company"
           title="Company"
           className="inline-flex items-center"
         >
           <img style={{ height: "3.5rem" }} src={fintech} />
-        </a>
+        </Link>
         <ul className="hidden items-center space-x-8 lg:flex">
           <li>
-            <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
+            <Link
+              to="/"
+              aria-label="Home"
+              title="Home"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/Projects"
-              aria-label="Our product"
-              title="Our product"
+            <Link
+              to="/Projects"
+              aria-label="Projects"
+              title="Projects"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Products
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/Demo"
-              aria-label="Product pricing"
-              title="Product pricing"
+            <Link
+              to="/Demo"
+              aria-label="Demo"
+              title="Demo"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Demo
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/AboutUs"
+            <Link
+              to="/AboutUs"
               aria-label="About us"
               title="About us"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               About us
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="flex items-center space-x-8 lg:flex">
@@ -98,8 +98,8 @@ export const Header = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       aria-label="Company"
                       title="Company"
                       className="inline-flex items-center"
@@ -122,7 +122,7 @@ export const Header = () => {
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Company
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -143,54 +143,54 @@ export const Header = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                      <Link
+                        to="/Homepage"
+                        aria-label="Home"
+                        title="Home"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/Products"
-                        aria-label="Our product"
-                        title="Our product"
+                      <Link
+                        to="/Projects"
+                        aria-label="Projects"
+                        title="Projects"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Our Products
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/Demo"
+                      <Link
+                        to="/Demo"
                         aria-label="Product pricing"
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Demo
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/AboutUs"
                         aria-label="About us"
                         title="About us"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/"
                         className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
                         Sign up
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
