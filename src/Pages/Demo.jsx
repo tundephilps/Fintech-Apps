@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Feedback from "./Feedback";
-import { Header } from "./Header";
-import Footer from "./Footer";
-import "./Tabs.css";
+import Feedback from "../components/Feedback";
+import { Header } from "../components/Header";
+import Footer from "../components/Footer";
 
 const Demo = () => {
   const [toggle, setToggle] = useState(1);
@@ -73,19 +72,57 @@ const Demo = () => {
                 Propriae
               </button>
             </div>
-            <div className={toggle === 4 ? "flex w-[80vw]" : "hidden"}>
+            <div
+              className={
+                toggle === 4
+                  ? "flex w-[90vw] lg:w-[60vw] items-center justify-center"
+                  : "hidden"
+              }
+            >
               <iframe
-                width="900px"
+                width="600"
                 height="315"
-                src="https://www.youtube.com/embed/C2Hgh_GNxQ0"
+                src="https://www.youtube.com/embed/ldXAtejfPRk"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
             </div>
-            <div className={toggle === 3 ? "flex" : "hidden"}>Coimg Soon</div>
-            <div className={toggle === 2 ? "flex" : "hidden"}>Coming Soon</div>
+            <div
+              className={
+                toggle === 3
+                  ? "flex w-[90vw] lg:w-[60vw] items-center justify-center"
+                  : "hidden"
+              }
+            >
+              <iframe
+                width="600"
+                height="315"
+                src="https://www.youtube.com/embed/blr9z9ynYrY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div
+              className={
+                toggle === 2
+                  ? "flex w-[90vw] lg:w-[60vw] items-center justify-center"
+                  : "hidden"
+              }
+            >
+              <iframe
+                width="600"
+                height="315"
+                src="https://www.youtube.com/embed/DiWyf_RtIYM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
             <div
               className={
                 toggle === 1

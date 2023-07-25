@@ -4,70 +4,70 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <section>
-      <div class="w-full min-h-[100vh] flex items-center justify-center">
-        <div class="w-full min-h-[100vh] flex items-center justify-center">
-          <div class="w-full sm:w-5/6 md:w-2/3 lg:w-1/2 xl:w-1/3 2xl:w-1/4 min-h-[100vh] bg-white flex items-center justify-center ">
-            <div class="w-full px-12 min-h-[100vh]  ">
-              <h2 class="text-center text-2xl font-bold tracking-wide text-gray-800">
+      <div className="w-full min-h-[100vh] flex items-center justify-center">
+        <div className="w-full min-h-[100vh] flex items-center justify-center">
+          <div className="w-full sm:w-5/6 md:w-2/3 lg:w-1/2 xl:w-1/3 2xl:w-1/4 min-h-[100vh] bg-white flex items-center justify-center ">
+            <div className="w-full px-12 min-h-[100vh]  ">
+              <h2 className="text-center text-2xl font-bold tracking-wide text-gray-800">
                 Sign Up
               </h2>
-              <p class="text-center text-sm text-gray-600 mt-1">
+              <p className="text-center text-sm text-gray-600 mt-1">
                 Already have an account?{" "}
                 <a
                   href="#"
-                  class="text-blue-600 hover:text-blue-700 hover:underline"
+                  className="text-blue-600 hover:text-blue-700 hover:underline"
                   title="Sign In"
                 >
                   Sign in here
                 </a>
               </p>
 
-              <form class="my-4 text-sm">
-                <div class="flex flex-col my-4">
-                  <label for="name" class="text-gray-700">
+              <form className="my-4 text-sm">
+                <div className="flex flex-col my-4">
+                  <label for="name" className="text-gray-700">
                     Name
                   </label>
                   <input
                     type="text"
                     name="name"
                     id="name"
-                    class="mt-1 p-2 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
+                    className="mt-1 p-2 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
                     placeholder="Enter your name"
                   />
                 </div>
 
-                <div class="flex flex-col my-2">
-                  <label for="email" class="text-gray-700">
+                <div className="flex flex-col my-2">
+                  <label for="email" className="text-gray-700">
                     Email Address
                   </label>
                   <input
                     type="email"
                     name="email"
                     id="email"
-                    class="mt-2 p-2 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
+                    className="mt-2 p-2 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
                     placeholder="Enter your email"
                   />
                 </div>
 
-                <div class="flex flex-col my-2">
-                  <label for="password" class="text-gray-700">
+                <div className="flex flex-col my-2">
+                  <label for="password" className="text-gray-700">
                     Password
                   </label>
-                  <div class="relative flex items-center mt-1">
+                  <div className="relative flex items-center mt-1">
                     <input
                       name="password"
                       id="password"
-                      class="flex-1 p-2 pr-10 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
+                      className="flex-1 p-2 pr-10 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
                       placeholder="Enter your password"
                       type="password"
                     />
                     <button
                       type="button"
-                      class="absolute right-2 bg-transparent flex items-center justify-center text-gray-700"
+                      className="absolute right-2 bg-transparent flex items-center justify-center text-gray-700"
                     >
                       <svg
                         x-show="!show"
-                        class="w-5 h-5"
+                        className="w-5 h-5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ const SignUp = () => {
 
                       <svg
                         x-show="show"
-                        class="w-5 h-5"
+                        className="w-5 h-5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -107,25 +107,25 @@ const SignUp = () => {
                   </div>
                 </div>
 
-                <div class="flex flex-col my-2">
-                  <label for="password_confirmation" class="text-gray-700">
+                <div className="flex flex-col my-2">
+                  <label for="password_confirmation" className="text-gray-700">
                     Password Confirmation
                   </label>
-                  <div class="relative flex items-center mt-1">
+                  <div className="relative flex items-center mt-1">
                     <input
                       name="password_confirmation"
                       id="password_confirmation"
-                      class="flex-1 p-2 pr-10 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
+                      className="flex-1 p-2 pr-10 border border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded text-sm text-gray-900"
                       placeholder="Enter your password again"
                       type="password"
                     />
                     <button
                       type="button"
-                      class="absolute right-2 bg-transparent flex items-center justify-center text-gray-700"
+                      className="absolute right-2 bg-transparent flex items-center justify-center text-gray-700"
                     >
                       <svg
                         x-show="!show"
-                        class="w-5 h-5"
+                        className="w-5 h-5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -141,7 +141,7 @@ const SignUp = () => {
 
                       <svg
                         x-show="show"
-                        class="w-5 h-5"
+                        className="w-5 h-5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -165,50 +165,50 @@ const SignUp = () => {
                   </div>
                 </div>
 
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <input
                     type="checkbox"
                     name="remember_me"
                     id="remember_me"
-                    class="mr-2 focus:ring-0 rounded"
+                    className="mr-2 focus:ring-0 rounded"
                   />
-                  <label for="remember_me" class="text-gray-700">
+                  <label for="remember_me" className="text-gray-700">
                     I accept the{" "}
                     <a
                       href="#"
-                      class="text-blue-600 hover:text-blue-700 hover:underline"
+                      className="text-blue-600 hover:text-blue-700 hover:underline"
                     >
                       terms
                     </a>{" "}
                     and{" "}
                     <a
                       href="#"
-                      class="text-blue-600 hover:text-blue-700 hover:underline"
+                      className="text-blue-600 hover:text-blue-700 hover:underline"
                     >
                       privacy policy
                     </a>
                   </label>
                 </div>
 
-                <div class="my-2 flex items-center justify-end space-x-4">
+                <div className="my-2 flex items-center justify-end space-x-4">
                   <Link to="/Homepage">
-                    <button class="bg-blue-600 hover:bg-blue-700 rounded-lg px-8 py-2 text-gray-100 hover:shadow-xl transition duration-150 uppercase">
+                    <button className="bg-blue-600 hover:bg-blue-700 rounded-lg px-8 py-2 text-gray-100 hover:shadow-xl transition duration-150 uppercase">
                       Sign Up
                     </button>
                   </Link>
                 </div>
               </form>
 
-              <div class="flex items-center justify-between">
-                <div class="w-full h-[1px] bg-gray-300"></div>
-                <span class="text-sm uppercase mx-6 text-gray-400">Or</span>
-                <div class="w-full h-[1px] bg-gray-300"></div>
+              <div className="flex items-center justify-between">
+                <div className="w-full h-[1px] bg-gray-300"></div>
+                <span className="text-sm uppercase mx-6 text-gray-400">Or</span>
+                <div className="w-full h-[1px] bg-gray-300"></div>
               </div>
 
-              <div class="text-sm">
+              <div className="text-sm">
                 <a
                   href="/Homepage"
-                  class="flex items-center justify-center space-x-2 text-gray-600 my-2 py-2 bg-gray-100 hover:bg-gray-200 rounded"
+                  className="flex items-center justify-center space-x-2 text-gray-600 my-2 py-2 bg-gray-100 hover:bg-gray-200 rounded"
                 >
                   <svg
                     width="20px"
@@ -287,7 +287,7 @@ const SignUp = () => {
                 </a>
                 <a
                   href="/Homepage"
-                  class="flex items-center justify-center space-x-2 text-gray-600 my-2 py-2 bg-gray-100 hover:bg-gray-200 rounded"
+                  className="flex items-center justify-center space-x-2 text-gray-600 my-2 py-2 bg-gray-100 hover:bg-gray-200 rounded"
                 >
                   <svg
                     width="20px"
@@ -337,7 +337,7 @@ const SignUp = () => {
                 </a>
                 <a
                   href="#"
-                  class="flex items-center justify-center space-x-2 text-gray-600 my-2 py-2 bg-gray-100 hover:bg-gray-200 rounded"
+                  className="flex items-center justify-center space-x-2 text-gray-600 my-2 py-2 bg-gray-100 hover:bg-gray-200 rounded"
                 >
                   <svg
                     height="20px"
@@ -376,11 +376,11 @@ const SignUp = () => {
               backgroundPosition: "center",
             }}
           >
-            <div class="w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-30">
-              <div class="flex items-center justify-center space-x-2">
+            <div className="w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-30">
+              <div className="flex items-center justify-center space-x-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-16 w-16 xl:h-20 xl:w-20 2xl:h-24 2xl:w-24 text-gray-100"
+                  className="h-16 w-16 xl:h-20 xl:w-20 2xl:h-24 2xl:w-24 text-gray-100"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -392,17 +392,17 @@ const SignUp = () => {
                     d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
                   ></path>
                 </svg>
-                <h1 class="text-3xl xl:text-4xl 2xl:text-5xl font-bold text-gray-100 tracking-wider">
+                <h1 className="text-3xl xl:text-4xl 2xl:text-5xl font-bold text-gray-100 tracking-wider">
                   Optimum FinTech
                 </h1>
               </div>
-              <p class="text-gray-300 mt-2 px-16 text-center">
+              <p className="text-gray-300 mt-2 px-16 text-center">
                 Financial Applications to make Business transactions, easier to
                 control...
               </p>
               <a
                 href="/Homepage"
-                class="mt-3 bg-gray-100 hover:bg-gray-200 px-6 py-1 rounded text-sm uppercase text-gray-900 transition duration-150"
+                className="mt-3 bg-gray-100 hover:bg-gray-200 px-6 py-1 rounded text-sm uppercase text-gray-900 transition duration-150"
                 title="Learn More"
               >
                 Learn More

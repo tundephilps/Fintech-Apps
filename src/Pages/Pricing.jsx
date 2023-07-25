@@ -10,10 +10,10 @@ const Pricing = () => {
           {" "}
           <button
             type="button"
-            class="text-gray-700 border border-gray-700 hover:bg-green-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2   "
+            className="text-gray-700 border border-gray-700 hover:bg-green-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2   "
           >
             <FaBackspace />
-            <span class="sr-only">Icon description</span>
+            <span className="sr-only">Icon description</span>
           </button>
         </Link>
         <div className="container mx-auto p-6 overflow-x-auto">
@@ -288,11 +288,11 @@ const Pricing = () => {
                 <td className="pt-4">
                   <button
                     type="button"
-                    class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200 mr-2 mb-2"
+                    className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200 mr-2 mb-2"
                   >
                     <svg
                       aria-hidden="true"
-                      class="w-10 h-3 mr-2 -ml-1"
+                      className="w-10 h-3 mr-2 -ml-1"
                       viewBox="0 0 660 203"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -312,11 +312,11 @@ const Pricing = () => {
                 <td className="pt-4">
                   <button
                     type="button"
-                    class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
+                    className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
                   >
                     <svg
                       aria-hidden="true"
-                      class="h-4 mr-2 -ml-1 w-7"
+                      className="h-4 mr-2 -ml-1 w-7"
                       viewBox="0 0 601 360"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -352,10 +352,10 @@ const Pricing = () => {
                 <td className="pt-4">
                   <button
                     type="button"
-                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
+                    className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
                   >
                     <svg
-                      class="w-4 h-4 mr-2 -ml-1"
+                      className="w-4 h-4 mr-2 -ml-1"
                       aria-hidden="true"
                       focusable="false"
                       data-prefix="fab"

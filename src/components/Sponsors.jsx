@@ -12,70 +12,78 @@ import vimeo from "../images/vimeo.png";
 
 const Sponsors = () => {
   return (
-    <section class="px-4 py-24 mx-auto max-w-7xl">
-      <div class="grid grid-cols-2 gap-10 text-center lg:grid-cols-8">
-        <div class="flex items-center justify-center">
+    <section className="px-4 py-24 mx-auto max-w-7xl">
+      <div className="grid grid-cols-2 gap-10 text-center lg:grid-cols-8">
+        <div className="flex items-center justify-center">
           <img
             src={apple}
             alt="Todoist Logo"
-            class="block object-contain h-15"
+            className="block object-contain h-15"
           />
         </div>
-        <div class="flex items-center justify-center">
-          <img src={slack} alt="Slack Logo" class="block object-contain h-15" />
+        <div className="flex items-center justify-center">
+          <img
+            src={slack}
+            alt="Slack Logo"
+            className="block object-contain h-15"
+          />
         </div>
-        <div class="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <img
             src={yahoo}
             alt="Typeform Logo"
-            class="block object-contain h-15"
+            className="block object-contain h-15"
           />
         </div>
-        <div class="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <img
             src={discord}
             alt="Algolia Logo"
-            class="block object-contain h-15"
+            className="block object-contain h-15"
           />
         </div>
-        <div class="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <img
             src={express}
             alt="Postcss Logo"
-            class="block object-contain h-15"
+            className="block object-contain h-15"
           />
         </div>
-        <div class="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <img
             src={bitcoin}
             alt="TailwindCSS Logo"
-            class="block object-contain h-15"
+            className="block object-contain h-15"
           />
         </div>
-        <div class="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <img
             src={gpay}
             alt="Discord Logo"
-            class="block object-contain h-15"
+            className="block object-contain h-15"
           />
         </div>
-        <div class="flex items-center justify-center">
-          <img src={vimeo} alt="Vimeo Logo" class="block object-contain h-15" />
+        <div className="flex items-center justify-center">
+          <img
+            src={vimeo}
+            alt="Vimeo Logo"
+            className="block object-contain h-15"
+          />
         </div>
       </div>
-      <p class="mt-16 text-base font-medium text-center text-gray-500">
+      <p className="mt-16 text-base font-medium text-center text-gray-500">
         From startups to Fortune 500s, the world's best teams use our tool to
         power their internal apps.
         <a
           href="#"
-          class="inline-flex items-center justify-center text-primary hover:text-primary-dark"
+          className="inline-flex items-center justify-center text-primary hover:text-primary-dark"
         >
           Our customers
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
-            class="inline w-3 h-3 ml-1"
+            className="inline w-3 h-3 ml-1"
           >
             <path
               fill-rule="evenodd"

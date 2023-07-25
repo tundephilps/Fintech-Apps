@@ -1,7 +1,11 @@
 import React from "react";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import profit from "../images/profit.png";
+import invoicemaker from "../images/invoicemaker.png";
 
+import POS from "../images/POS.png";
+
+import stock from "../images/stock.png";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -17,7 +21,7 @@ import { Link } from "react-router-dom";
 const Container = () => {
   const data = [
     {
-      Img: require("../images/profit.png"),
+      Img: profit,
       type: "Enterprise App",
       name: "Profit Margin Calculator",
       description:
@@ -27,7 +31,7 @@ const Container = () => {
     },
 
     {
-      Img: require("../images/invoicemaker.png"),
+      Img: invoicemaker,
       type: "Software As a Service",
       name: "Invoice Maker",
       description:
@@ -36,7 +40,7 @@ const Container = () => {
       Repo: "https://github.com/tundephilps/Invoice-Maker",
     },
     {
-      Img: require("../images/POS.png"),
+      Img: POS,
       type: "Software As a Service",
       name: "Point Of Sales System",
       description:
@@ -45,7 +49,7 @@ const Container = () => {
       Repo: "https://github.com/tundephilps/POS-System",
     },
     {
-      Img: require("../images/stock.png"),
+      Img: stock,
       type: "Enterprise App",
       name: "Stock Market Traker",
       description:
@@ -66,24 +70,24 @@ const Container = () => {
 
   return (
     <div className=" bg-[#1b1b1b] h-[120vh]">
-      <div class="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4">
         {data.map((value, index) => {
           return (
             <div
-              class="col-span-1  flex-col justify-center bg-none rounded-2xl shadow-xl shadow-slate-300/60 h-90"
+              className="col-span-1  flex-col justify-center bg-none rounded-2xl shadow-xl shadow-slate-300/60 h-90"
               key={index}
             >
               <img
-                class="aspect-video w-full h-45 rounded-t-2xl object-cover object-center"
+                className="aspect-video w-full h-45 rounded-t-2xl object-cover object-center"
                 src={value.Img}
               />
 
-              <div class="p-4">
-                <small class="text-blue-400 text-xs">{value.type}</small>
-                <h1 class="text-2xl font-medium text-slate-600 pb-2">
+              <div className="p-4">
+                <small className="text-blue-400 text-xs">{value.type}</small>
+                <h1 className="text-2xl font-medium text-slate-600 pb-2">
                   {value.name}
                 </h1>
-                <p class="text-sm tracking-tight font-light text-slate-400 leading-6">
+                <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
                   {value.description}
                 </p>
                 <IconButton
