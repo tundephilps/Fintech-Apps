@@ -1,0 +1,6 @@
+.active-tabs::before {
+    color: blue;
+    transform: translateY(-50%);
+    height: 5px;
+  }
+  
